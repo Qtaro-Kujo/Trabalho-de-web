@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(237, 237, 237);
+    margin: 0;
+    font-family: raleway;
+    margin: 0 auto;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 0.7;
+    transition: 0.2s;
+}
+
+#logo{
+    font-size: 25px;
+    margin-left: 300px;
+    color: white;
+
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background: black;
+}
+
+.navlist{
+    list-style: none;
+    font-family: raleway;
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 300px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    max-width: 80%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    font-size: 50px;
+    margin: 0;
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    border: solid 1px black;
+    font-family: raleway;
+    font-size: 14px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+label{
+    color: grey;
+    font-family: raleway;
+    font-weight: 500;
+    margin-bottom: 12px;
+    margin-top: 20px;
+}
+
+#enviar{
+    background-color: black;
+    color: white;
+    font-family: raleway;
+    font-weight: 800;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    
+   }
+   
+   #enviar:hover {
+       background-color: darkred;
+       transition-duration: 0.2s;
+   }
+
+   aside{
+       margin-right: 100px;
+   }
+
+.coluna{
+    margin-left: 100px;
+}

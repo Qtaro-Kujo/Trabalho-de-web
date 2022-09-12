@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="sistema.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;800&display=swap" rel="stylesheet">
+    <title>Sistema</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 id="logo"> Bem-vindo <?php echo $logado ?></h1>
+
+            <ul class="navlist">
+                <li><a href="sair.php">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <aside>
+            <h2> Salve seus personagens </h2>
+            <p> Cadastre aqui os personagens criados para a sua sessão <br></p>
+            <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post" enctype="multipart/form-data">
+                <div class="textfield">
+                    <label for="usuario">Nome</label>
+                    <input type="text" name="nome" required>
+                </div>
+                <div class="textfield">
+                    <label for="raça">Raça</label>
+                    <input type="text" name="raça" required>
+                </div>
+                <div class="textfield">
+                    <label for="classe">Classe</label>
+                    <input type="text" name="classe" required>
+                </div>
+                <div class="textfield">
+                    <label for="imagem">Imagem</label>
+                    <input type="file" name="imagem" required>
+                </div>
+                <input type="submit" id="enviar" name="cadastrou" value="Cadastrar">
+            </form>
+        </aside>
+        <div class="coluna">
+            <h2> Seus personagens <br></h2>
+        </div>
+    </main>
+</body>
+</html>

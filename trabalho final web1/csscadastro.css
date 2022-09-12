@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    background-image: url(css/imagens/bg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.esquerda-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.direita-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 45px 45px;
+    background: white;
+    border-radius: 15px;
+}
+
+.card-login > h1 {
+    color: black;
+    font-family: raleway;
+    font-weight: 800;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    border: 10px black;
+    font-family: raleway;
+    font-size: 14px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+label{
+    color: darkred;
+    font-family: raleway;
+    font-weight: 500;
+    margin-bottom: 12px;
+    margin-top: 20px;
+}
+
+#enviar{
+ background-color: darkred;
+ color: white;
+ font-family: raleway;
+ font-weight: 800;
+ font-size: 18px;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ margin-top: 30px;
+ 
+}
+
+#enviar:hover {
+    background-color: darkred;
+    transition-duration: 0.2s;
+}
+
+.fazerlogin{
+    text-decoration: none;
+    font-family: raleway;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 14px;
+    color: grey;
+    margin-left: 2px;
+    display: flex;
+}
+
+.fazerlogin:hover {
+    color: darkred;
+}
+
+h3{
+    font-family: raleway;
+    font-weight: 500;
+    font-size: 16px;
+    color: limegreen;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 2px;   
+}
+
+#erro{
+    font-family: raleway;
+    font-weight: 500;
+    font-size: 16px;
+    color: darkred;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 2px;
+}
